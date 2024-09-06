@@ -26,52 +26,50 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="./images/logo_coffeeshop_dark.svg"
-          alt="Logo cafeteria oscuro"
-          class="nav__logo"
-        />
         <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logo cafeteria oscuro"
+            class="nav__logo"
+          />
           <ul class="nav__links">
             <li>
-              <p class="nav__link"><a href="#recipes">Recetas</a></p>
+              <a class="nav__link" href="#recipes">Recetas</a>
             </li>
             <li>
-              <a href="#reserve" class="nav__link">Reservar una mesa</a>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li>
-              <a href="#contact" class="nav__link">Contactos</a>
+              <a href="#footer" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
-        <div class="header__content">
-          <h1 class="header__title">
-            <span class="header__span-accent">Cafe de especialidad</span>
-            <span class="header__span">en Triple Peaks</span>
-          </h1>
-          <p class="header__description">
-            ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
-            para darte energía y motivar tu creatividad.
-          </p>
-          <img
-            class="header__image"
-            src="./images/inside_coffee_shop.png"
-            alt="imagen dentro de una cafeteria"
-          />
-        </div>
+        <h1 class="header__title">
+          <span class="header__span-accent">Cafe de especialidad</span>
+          <span class="header__span">en Triple Peaks</span>
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="imagen dentro de una cafeteria"
+        />
         <div class="header__footer">
-          <p class="header__paragrahp">Horario:</p>
-          <p class="header__paragrahp">Lunes a Viernes (de 10:00h a 19:00h)</p>
-          <p class="header__paragrahp">
+          <p class="header__paragraph">Horario:</p>
+          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <p class="header__paragraph">
             Sábados y Domingos (de 11:00h a 18:00h)
           </p>
-          <p class="header__paragrahp_address">
+          <p class="header__paragraph header__paragraph_address">
             Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
         </div>
       </header>
       <main class="content">
-        <section class="recipes" id="recetas">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
@@ -80,7 +78,7 @@
           <div class="recipes__videos">
             <div>
               <iframe
-                class="recipes__video"
+                class="recipes__iframe"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=CemUpZDUhQicStww"
@@ -96,7 +94,7 @@
             </div>
             <div>
               <iframe
-                class="recipes__video"
+                class="recipes__iframe"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=yE9AOOJmohdT8qVK"
@@ -112,9 +110,9 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer"></footer>
     </div>
   </body>
 </html>
