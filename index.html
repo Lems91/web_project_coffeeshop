@@ -110,7 +110,58 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre</label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                placeholder="nombre"
+                required
+              />
+              <label class="form__label" for="number"
+                >Numero de comensales</label
+              >
+              <input
+                class="form__input"
+                type="number"
+                id="number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              />
+              <label class="form__label" for="datetime">Fecha y hora</label>
+              <input
+                class="form__input"
+                type="datetime"
+                id="datetime"
+                placeholder="dd/mm/aaaa"
+                required
+              />
+              <label class="form__label" for="email"
+                >Tu correo electronico</label
+              >
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="form__button" type="submit" required>
+                Reservar una mesa
+              </button>
+              <label class="form__label-checkbox">
+                <input class="form__checkbox" type="checkbox" required />Acepto
+                terminos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>
