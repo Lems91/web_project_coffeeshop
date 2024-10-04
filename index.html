@@ -12,7 +12,6 @@
       name="keywords"
       content="café, tienda de café, café artesanal, comprar café en línea"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -153,7 +152,7 @@
                 placeholder="email@email.com"
                 required
               />
-              <button class="reservation__button" type="submit">
+              <button class="form__button" type="submit">
                 Reservar una mesa
               </button>
               <label class="reservation__label-checkbox">
@@ -167,7 +166,41 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <div class="footer__left-item">
+            <img
+              class="footer__logo"
+              src="./images/logo_coffeeshop_light.svg"
+            />
+            <div class="footer__circle"></div>
+          </div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    alt="logo facebook"
+                    src="./images/facebook_white.svg"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    alt="logo Instagram"
+                    src="./images/instagram_white.svg"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">Luis Sanchez</p>
+      </footer>
     </div>
   </body>
 </html>
